@@ -1,0 +1,16 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <i>{{ flatpage.title }}</i>
+    <hr>
+<h5>
+        <p style="padding-left: 10px; text-align: center;">
+            <em>&laquo;Вы можете связаться с нами по нижеуказанным телефонам:&raquo;</em></p>
+</h5>
+{{ flatpage.content }}
+{% endblock content %}
+
